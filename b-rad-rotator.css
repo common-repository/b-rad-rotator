@@ -1,0 +1,90 @@
+div.b_rad_rotator{
+    display: inline-block;
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+div.b_rad_rotator_left{
+    width: 5%;
+    height: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: left;
+    display: inline;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 999;
+    cursor: pointer;
+}
+div.b_rad_rotator_right{
+    width: 5%;
+    height: 50px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    float: right;
+    display: inline;
+    position: relative;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+
+}
+div.b_rad_rotator_item{
+    display:inline-block;
+    overflow-y: hidden;
+    height: inherit;    
+    float: left;
+}
+div.b_rad_rotator_items{
+    width: auto;
+    overflow: hidden;
+}
+div.b_rad_rotator_viewPane{
+    width: 88%;
+    height: 180px;
+    display:inline-block;
+    overflow: hidden;
+}
+div.b_rad_rotator_item a{
+    border: solid;
+    border-width: 1px;
+    height: inherit;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    overflow: hidden;
+}
+
+div.b_rad_rotator_item img{
+    position: relative;
+    display: inline;
+    width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    border: none;
+    overflow-y: hidden;
+}
+
+span.b_rad_rotator_title{
+    position: relative;
+    color: #FFF;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    left:0px;
+    z-index: 3;
+    font-size: 12px;
+    display: inline-block;
+    line-height: 12px;
+}
